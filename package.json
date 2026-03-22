@@ -11,6 +11,7 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "test": "vitest -c ./config/test/config.ts",
+    "test:coverage": "vitest -c ./config/test/config.ts --coverage",
     "clean": "rimraf dist"
   },
   "imports": {
@@ -49,6 +50,7 @@
     "@types/react": "^19.2.9",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
+    "@vitest/coverage-v8": "^4.0.17",
     "jsdom": "^27.4.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^6.1.2",
