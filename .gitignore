@@ -8,3 +8,7 @@ junit.xml
 *.orig
 .awcache
 public
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
